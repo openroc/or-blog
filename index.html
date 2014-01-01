@@ -1,50 +1,71 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <!-- META -->
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Or-blog : my blog" />
+<head>
+  <!-- META -->
+  <meta charset='utf-8' />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+  <meta name="description" content="Or-blog : my blog" />
 
-    <!-- SCRIPT -->
-    <script type="text/javascript" src="//cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.staticfile.org/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
-    <script type="text/javascript" src="//cdn.staticfile.org/angular-ui-bootstrap/0.8.0/ui-bootstrap.min.js"></script>
+  <!-- SCRIPT -->
+  <script type="text/javascript" src="//cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdn.staticfile.org/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+  <script type="text/javascript" src="//cdn.staticfile.org/angular-ui-bootstrap/0.8.0/ui-bootstrap.min.js"></script>
 
-    <script type="text/javascript" src="/static/site/js/main.js"></script>
+  <script type="text/javascript" src="/static/site/js/main.js"></script>
 
-    <!-- STYLE -->
-    <link rel="stylesheet" type="text/css" media="screen" href="http://cdn.staticfile.org/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
-    
-    <link rel="stylesheet" type="text/css" media="screen" href="/static/site/css/main.css">
+  <!-- STYLE -->
+  <link rel="stylesheet" type="text/css" media="screen" href="//cdn.staticfile.org/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="//cdn.staticfile.org/pure/0.3.0/pure-min.css">
 
-    <link rel="icon" href="/static/site/img/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="/static/site/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" media="screen" href="/static/site/css/main.css">
+
+  <link rel="icon" href="/static/site/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/static/site/img/favicon.ico" type="image/x-icon">
 
 
-    <!-- TITLE -->
-    <title>Or-blog</title>
+  <!-- TITLE -->
+  <title>Or-Blog</title>
 
-  </head>
+</head>
 
-  <body>
+<body>
+  <div class="pure-g-r" id="layout">
 
-    <!-- HEADER -->
-    <div id="header" class="outer">
+    <a href="#menu" id="menuLink" class="menu-link">
+      <span></span>
+    </a>
+
+    <div class="pure-u" id="menu">
+      <div class="pure-menu pure-menu-open">
+
+        <a class="pure-menu-heading">
+          <img src="/static/site/img/favicon.ico" alt="OR BLOG" class="img-circle">
+        </a>
+
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#">Archive</a></li>
+          <li><a href="#">Category</a></li>
+          <li><a href="#">Tag</a></li>
+          <li><a href="#">RSS</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content" class="outer">
+    <div class="pure-u-1">
+      Content here
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer" class="outer">
-      <div class="text-center small"> @2014 or-blog </div>
-    </div>
+  </div>
 
 
 
-  </body>
+
+
+
+
+
+</body>
 </html>
