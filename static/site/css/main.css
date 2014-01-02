@@ -236,7 +236,9 @@ aside a, aside a:visited {
 }
 
 #menu .pure-menu-heading {
-    height: 150px;
+    height: 140px;
+    padding: 0px;
+    text-align: center;
 }
 
 #menu .pure-menu-open {
